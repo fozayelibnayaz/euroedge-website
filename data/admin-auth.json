@@ -1,0 +1,8 @@
+{
+  "name": "EuroEdge Admin",
+  "email": "admin",
+  "password": "010f9685213ce972dc47719774d51dcbb1d5f1cc00cd51af08748b3bfcd10987300d23bae073cf2d7b9b417302a29ef5396584f73ec313f2c96fe3f5456a3999",
+  "salt": "93ec520d951ebe91dd72f8133189607687d5",
+  "updatedAt": "2026-11-12T16:13:13.974Z",
+  "mustRotate": true
+}

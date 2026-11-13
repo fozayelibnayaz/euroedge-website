@@ -1,0 +1,21 @@
+{
+  "app.name": "EuroEdge Admission Group",
+  "home.title": "Your Architectural Shortcut to World-Class Universities",
+  "home.subtitle": "EuroEdge Admission Group guides international students across the UK, USA, Canada, Australia, Europe, and Malaysia.",
+  "home.getStarted": "Book Free Consultation",
+  "home.learnMore": "Explore Courses",
+  "home.feature.fast.title": "Precision Admissions",
+  "home.feature.fast.description": "Forensic GPA & course matching across global partner universities.",
+  "home.feature.auth.title": "Accredited Coaching",
+  "home.feature.auth.description": "100% live online B1, B2, IELTS, and Spoken English mastery cohorts.",
+  "home.feature.production.title": "95% Visa Compliance",
+  "home.feature.production.description": "End-to-end financial, CAS/I-20/CoE, and interview preparation.",
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.login": "Admin Login",
+  "nav.logout": "Sign Out",
+  "nav.product": "Admin CMS",
+  "footer.copyright": "© {year} EuroEdge Admission Group Ltd. All rights reserved.",
+  "footer.policies": "Privacy & Terms",
+  "footer.cookiesEssential": "This site uses strictly essential security cookies."
+}

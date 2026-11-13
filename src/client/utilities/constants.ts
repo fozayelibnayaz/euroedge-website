@@ -1,0 +1,55 @@
+export const LOCAL_STORAGE_ID = 'EuroEdge-Admission-Group';
+
+export const META = {
+  PREVIEW_IMAGE: '/preview.png',
+  FALLBACK: 'https://euroedgeadmissiongroup.com',
+  AUTHOR: 'EuroEdge Admission Group',
+  KEYWORDS: 'EuroEdge Admission Group, study in UK, study in USA, study in Canada, study in Australia, study in Europe, study in Malaysia, B1 English course, B2 English course, IELTS preparation, student visa consultancy London',
+  LANGUAGE: 'English',
+  REVISIT_AFTER: '7 days',
+  GENERATOR: 'EuroEdge Platform',
+  OG_TYPE: 'website',
+  SITE_NAME: 'EuroEdge Admission Group',
+  LOCALE: 'en_GB',
+  TWITTER_CARD: 'summary_large_image',
+  TWITTER_SITE: '@euroedgegroup',
+  THEME_COLOR: '#2953E4',
+  MOBILE_WEB_APP_CAPABLE: 'yes',
+  APPLE_STATUS_BAR_STYLE: 'black-translucent',
+} as const;
+
+export const ROUTES = {
+  HOME: '/',
+  STUDY: '/study',
+  STUDY_DETAIL: '/study/:slug',
+  COURSES: '/courses',
+  COURSE_DETAIL: '/courses/:slug',
+  SERVICES: '/services',
+  RECRUITMENT: '/recruitment',
+  RECRUITMENT_DETAIL: '/recruitment/:slug',
+  ABOUT: '/about',
+  BLOG: '/blog',
+  BLOG_DETAIL: '/blog/:slug',
+  CONTACT: '/contact',
+  ADMIN: '/admin',
+  LOGIN: '/admin/login',
+  LOGOUT: '/admin/logout',
+  POLICIES: '/policies',
+} as const;
+
+export const API_PATHS = {
+  LOGIN: '/login/password',
+  LOGOUT: '/logout',
+  SESSION: '/api/session',
+  AUTH_ME: '/api/auth/me',
+  KEY: '/api/key',
+  CMS: '/api/cms',
+  FORM_CHALLENGE: '/api/form-challenge',
+  INQUIRIES: '/api/inquiries',
+  ADMIN_CMS: '/api/admin/cms',
+  ADMIN_CMS_RESET: '/api/admin/cms/reset',
+  ADMIN_INQUIRIES: '/api/admin/inquiries',
+  ADMIN_CREDENTIALS: '/api/admin/credentials',
+  ADMIN_MEDIA: '/api/admin/media',
+  ADMIN_AUDIT: '/api/admin/audit',
+} as const;

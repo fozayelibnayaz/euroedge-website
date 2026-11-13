@@ -1,0 +1,15 @@
+# EuroEdge Admission Group — Environment Template
+# Copy this file to .env to get started: cp .envTemplate .env
+# IMPORTANT: Do NOT wrap values in quotes when using Node --env-file.
+
+LOCAL_STORAGE_KEY=local-dev-storage-key
+SESSION_SECRET=local-dev-session-secret
+NODE_ENV=development
+PORT=3000
+
+# Hidden Admin CMS Credentials (template default: test / test)
+# Generate custom production values with:
+# node -e "const c=require('crypto');const p=process.argv[1];const s=c.randomBytes(8).toString('hex');const h=c.pbkdf2Sync(p,s,100000,64,'sha512').toString('hex');console.log('ADMIN_PASSWORD_SALT='+s);console.log('ADMIN_PASSWORD_HASH='+h);" "YourStrongPassword"
+ADMIN_USERNAME=test
+ADMIN_PASSWORD_SALT=salt123ABC
+ADMIN_PASSWORD_HASH=a12de93955d83d00dda97797538cebf8b83224ff6d439e36fac2747c923948b7cb5b69c9ac32ec9cdb38c2ed78a2c734d2c36cbc37b27a952d6e365c3945191c
